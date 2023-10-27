@@ -1,0 +1,24 @@
+/* global-variables.css */
+:root {
+  --primary-color: #002772;
+  --secondary-color: #720060;
+  --black-color: #1e1e1e;
+  --light-gray-color: #dcdcdc;
+  --pink-color: #fde2ff;
+  --sky-color: #d6e6ff;
+  --semi-black-color: #3f3f3f;
+  /* Define other global variables here */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--black-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
